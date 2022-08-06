@@ -39,7 +39,8 @@ public class AlertAndWindowPopup {
 						driver.switchTo().window(window);
 					} catch (NoSuchWindowException e) {
 						fail("customized tour window did not exist");
-					}
+System.out.println("TEST GIT");					
+}
 
 				}
 			}
